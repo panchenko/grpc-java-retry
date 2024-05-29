@@ -3,8 +3,7 @@
     {
       "name": [
         {
-          "service": "helloworld.Greeter",
-          "method": "SayHello"
+          "service": ""
         }
       ],
 
