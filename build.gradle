@@ -20,6 +20,10 @@ dependencies {
 
     // examples/advanced need this for JsonFormat
     implementation "com.google.protobuf:protobuf-java-util:${protobufVersion}"
+
+    // tomcat
+    implementation "io.grpc:grpc-servlet:$grpcVersion"
+    implementation "org.apache.tomcat.embed:tomcat-embed-core:9.0.89"
 }
 
 protobuf {
